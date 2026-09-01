@@ -3,18 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS notes 2026</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <h1>Apuntes o log de Errores de CSS</h1>
     <a href="../index.html">HomePage</a>
-    <p>la estructura de reporte de errores o aprendizajes sera la siguiente</p>
-    <ol>
+    <p>La estructura de reporte de errores o aprendizajes sera la siguiente</p>
+<article><ol>
         <li>Fecha</li>
         <li>¿Que error ocurrio o que asumi mal? y ¿en cual contexto?</li>
         <li>La solución y correción que hice en el momento</li>
+        <li>Mi codigo antes y despues en formato pequeño</li>
         <li>Enlace de MDN con el concepto que encontre utíl</li>
+        <li>Conclución técnica</li>
+    </ol></article>
+
+<article>
+    <ol>
+        <li>01/09/2026</li>
+        <li>Asumi que tenia que crear una tercera clase en un ejercicio de Odin project</li>
+        <li>Revisando la solución me di cuenta que no ocupe el selector list </li>
+        <li>Mi solución:<pre><code>
+            .first{
+    background-color: black;
+    color: white;
+}
+
+.second{
+    background-color: yellow;
+    color: black;
+}
+
+.size{
+    font-size: 28px;
+    font-family: Helvetica,'Times New Roman', Times, serif;
+}
+        </code></pre>
+    Y la solución del ejercicio real:
+<pre><code>.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.fancy {
+  background-color: yellow;
+}</code></pre></li>
+<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#complex_selector">Selector List</a></li>
+<li>Conclusión:Usar el selector List osea .name,namename, para agrupar o aplicar modificaciones que compartan varios elementos de HTML, para asi evitar crear una clase por cada aspecto especifico a añadir en cada uno</li>
     </ol>
+</article>
 </body>
 </html>
