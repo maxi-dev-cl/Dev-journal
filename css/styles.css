@@ -1,5 +1,6 @@
 h1{
     color:#9c6644ff;
+    text-align: center;
 }
 
 body{
@@ -22,13 +23,18 @@ article{
     background-color:#e6ccb2ff ;
     border-color: #9c6644ff;
     border-radius: 10px;
-    border-width: 20px;
-    
-}
-code{
-    
+    border-width: 2px;
+    border-style: solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 15px;
+    font-size: 17px;
 }
 
+.fecha{
+    text-align: end;
+    padding-right: 10px;
+}
 
 
 /*Colors.co
