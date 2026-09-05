@@ -40,7 +40,12 @@ code{
     font-size: 13.5px;;
 }
 
-
+strong{
+    color:brown;
+}
+.highlight{
+    background-color:darkorange;
+}
 /*Colors.co
 --almond-cream: #ede0d4ff;
 --pale-oak: #e6ccb2ff;
